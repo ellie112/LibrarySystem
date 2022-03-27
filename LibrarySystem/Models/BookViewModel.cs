@@ -17,7 +17,7 @@ namespace LibrarySystem.Models
 
         public BookViewModel(Book book)
         {
-            BookId = book.Id;
+            Id = book.Id;
             Author = book.Author;
             Title = book.Title;
             Year = book.Year;
